@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: covid-19-tracker-rlg-bug
+  name: covid-19-tracker-rlg-bug
+  memory: 200M
+  stack: cflinuxfs2
