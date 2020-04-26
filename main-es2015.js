@@ -533,7 +533,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](13);
         const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("World Covid19 Live Status : ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](4, 5, ctx.currentDT, "fullDate"), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("World Covid-19 Live Status : ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](4, 5, ctx.currentDT, "fullDate"), " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.serverResponse == true)("ngIfThen", _r2)("ngIfElse", _r4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
@@ -723,33 +723,41 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function ChartJsComponent_div_7_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "a", 14);
+function ChartJsComponent_div_5_ng_template_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "a", 15);
 } if (rf & 2) {
-    const item_r11 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", item_r11, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
+    const item_r12 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", item_r12, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
 } }
-function ChartJsComponent_div_7_ng_template_4_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 14);
+function ChartJsComponent_div_5_ng_template_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 15);
 } if (rf & 2) {
-    const notFound_r12 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", notFound_r12, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
+    const notFound_r13 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", notFound_r13, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
 } }
-function ChartJsComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+function ChartJsComponent_div_5_Template(rf, ctx) { if (rf & 1) {
+    const _r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ng-autocomplete", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("selected", function ChartJsComponent_div_7_Template_ng_autocomplete_selected_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14); const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r13.selectEvent($event); })("inputChanged", function ChartJsComponent_div_7_Template_ng_autocomplete_inputChanged_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14); const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r15.onChangeSearch($event); })("inputFocused", function ChartJsComponent_div_7_Template_ng_autocomplete_inputFocused_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14); const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r16.onFocused($event); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "label", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Filter by country");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ChartJsComponent_div_7_ng_template_2_Template, 1, 1, "ng-template", null, 12, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ChartJsComponent_div_7_ng_template_4_Template, 1, 1, "ng-template", null, 13, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ng-autocomplete", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("selected", function ChartJsComponent_div_5_Template_ng_autocomplete_selected_3_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r15); const ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r14.selectEvent($event); })("inputChanged", function ChartJsComponent_div_5_Template_ng_autocomplete_inputChanged_3_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r15); const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r16.onChangeSearch($event); })("inputFocused", function ChartJsComponent_div_5_Template_ng_autocomplete_inputFocused_3_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r15); const ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r17.onFocused($event); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, ChartJsComponent_div_5_ng_template_4_Template, 1, 1, "ng-template", null, 13, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ChartJsComponent_div_5_ng_template_6_Template, 1, 1, "ng-template", null, 14, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](3);
-    const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](5);
+    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](5);
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](7);
     const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("data", ctx_r6.countryData)("searchKeyword", ctx_r6.keyword)("itemTemplate", _r7)("notFoundTemplate", _r9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("data", ctx_r6.countryData)("searchKeyword", ctx_r6.keyword)("itemTemplate", _r8)("notFoundTemplate", _r10);
+} }
+function ChartJsComponent_div_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Loading...");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 var Highcharts = __webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js");
 __webpack_require__(/*! highcharts/modules/exporting */ "./node_modules/highcharts/modules/exporting.js")(Highcharts);
@@ -998,30 +1006,30 @@ class ChartJsComponent {
     }
 }
 ChartJsComponent.ɵfac = function ChartJsComponent_Factory(t) { return new (t || ChartJsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"])); };
-ChartJsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ChartJsComponent, selectors: [["app-chart-js"]], decls: 14, vars: 1, consts: [[1, "text-center"], [1, "row"], [1, "col-lg-12", "badge", "badge-outline-dark", 2, "text-align", "left"], [1, "form-group", "mb-1", "mt-3"], ["for", "exampleInput"], ["class", "ng-autocomplete", 4, "ngIf"], [1, "my-custom-scrollbar"], ["id", "confirmedContainer"], ["id", "recoveredContainer"], ["id", "deathsContainer"], [1, "ng-autocomplete"], ["placeHolder", "Enter the Country Name", 3, "data", "searchKeyword", "itemTemplate", "notFoundTemplate", "selected", "inputChanged", "inputFocused"], ["itemTemplate", ""], ["notFoundTemplate", ""], [3, "innerHTML"]], template: function ChartJsComponent_Template(rf, ctx) { if (rf & 1) {
+ChartJsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ChartJsComponent, selectors: [["app-chart-js"]], decls: 13, vars: 2, consts: [[1, "text-center"], [1, "row"], [1, "col-lg-12", "badge", "badge-outline-dark", 2, "text-align", "left"], [1, "form-group", "mb-1", "mt-3"], ["class", "ng-autocomplete", 4, "ngIf"], [4, "ngIf"], [1, "my-custom-scrollbar"], ["id", "confirmedContainer"], ["id", "recoveredContainer"], ["id", "deathsContainer"], [1, "ng-autocomplete"], ["for", "exampleInput"], ["placeHolder", "Enter the Country Name", 3, "data", "searchKeyword", "itemTemplate", "notFoundTemplate", "selected", "inputChanged", "inputFocused"], ["itemTemplate", ""], ["notFoundTemplate", ""], [3, "innerHTML"]], template: function ChartJsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Spread Trends");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Spread trends");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "label", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Filter by country");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, ChartJsComponent_div_7_Template, 6, 4, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ChartJsComponent_div_5_Template, 8, 4, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ChartJsComponent_div_6_Template, 2, 0, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "div", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.countryData.length > 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.countryData.length == 0);
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], angular_ng_autocomplete__WEBPACK_IMPORTED_MODULE_4__["AutocompleteComponent"]], styles: ["#chartContainer[_ngcontent-%COMP%]{\r\n    height: 370px;\r\n    width: 100%;\r\n    margin-left:auto;\r\n    margin-right:auto;\r\n}\r\n\r\n#chartContainer1[_ngcontent-%COMP%]{\r\n    height: 370px;\r\n    width: 100%;\r\n    margin-left:auto;\r\n    margin-right:auto;\r\n}\r\n\r\n#chartContainer1[_ngcontent-%COMP%]{\r\n    height: 370px;\r\n    width: 100%;\r\n    margin-left:auto;\r\n    margin-right:auto;\r\n}\r\n\r\n.canvasjs-chart-credit[_ngcontent-%COMP%] { \r\n    display: none !important;\r\n}\r\n\r\n.my-custom-scrollbar[_ngcontent-%COMP%] {\r\n    \r\n    overflow-y: auto;\r\n    height: 1260px;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.highcharts-figure[_ngcontent-%COMP%], .highcharts-data-table[_ngcontent-%COMP%]   table[_ngcontent-%COMP%] {\r\n    min-width: 360px; \r\n    max-width: 800px;\r\n    margin: 1em auto;\r\n}\r\n\r\n.highcharts-data-table[_ngcontent-%COMP%]   table[_ngcontent-%COMP%] {\r\n\tfont-family: Verdana, sans-serif;\r\n\tborder-collapse: collapse;\r\n\tborder: 1px solid #EBEBEB;\r\n\tmargin: 10px auto;\r\n\ttext-align: center;\r\n\twidth: 100%;\r\n\tmax-width: 500px;\r\n}\r\n\r\n.highcharts-data-table[_ngcontent-%COMP%]   caption[_ngcontent-%COMP%] {\r\n    padding: 1em 0;\r\n    font-size: 1.2em;\r\n    color: #555;\r\n}\r\n\r\n.highcharts-data-table[_ngcontent-%COMP%]   th[_ngcontent-%COMP%] {\r\n\tfont-weight: 600;\r\n    padding: 0.5em;\r\n}\r\n\r\n.highcharts-data-table[_ngcontent-%COMP%]   td[_ngcontent-%COMP%], .highcharts-data-table[_ngcontent-%COMP%]   th[_ngcontent-%COMP%], .highcharts-data-table[_ngcontent-%COMP%]   caption[_ngcontent-%COMP%] {\r\n    padding: 0.5em;\r\n}\r\n\r\n.highcharts-data-table[_ngcontent-%COMP%]   thead[_ngcontent-%COMP%]   tr[_ngcontent-%COMP%], .highcharts-data-table[_ngcontent-%COMP%]   tr[_ngcontent-%COMP%]:nth-child(even) {\r\n    background: #f8f8f8;\r\n}\r\n\r\n.highcharts-data-table[_ngcontent-%COMP%]   tr[_ngcontent-%COMP%]:hover {\r\n    background: #f1f7ff;\r\n}\r\n\r\n.autocomplete-container[_ngcontent-%COMP%] {\r\n    width: 96% !important;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2hhcnQtanMvY2hhcnQtanMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYixXQUFXO0lBQ1gsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGFBQWE7SUFDYixXQUFXO0lBQ1gsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGFBQWE7SUFDYixXQUFXO0lBQ1gsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLHdCQUF3QjtBQUM1Qjs7QUFFQTtJQUNJOzs7cUJBR2lCO0lBQ2pCLGdCQUFnQjtJQUNoQixjQUFjO0lBQ2Qsa0JBQWtCO0FBQ3RCOztBQUNBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGdCQUFnQjtJQUNoQixnQkFBZ0I7QUFDcEI7O0FBRUE7Q0FDQyxnQ0FBZ0M7Q0FDaEMseUJBQXlCO0NBQ3pCLHlCQUF5QjtDQUN6QixpQkFBaUI7Q0FDakIsa0JBQWtCO0NBQ2xCLFdBQVc7Q0FDWCxnQkFBZ0I7QUFDakI7O0FBQ0E7SUFDSSxjQUFjO0lBQ2QsZ0JBQWdCO0lBQ2hCLFdBQVc7QUFDZjs7QUFDQTtDQUNDLGdCQUFnQjtJQUNiLGNBQWM7QUFDbEI7O0FBQ0E7SUFDSSxjQUFjO0FBQ2xCOztBQUNBO0lBQ0ksbUJBQW1CO0FBQ3ZCOztBQUNBO0lBQ0ksbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0kscUJBQXFCO0FBQ3pCIiwiZmlsZSI6InNyYy9hcHAvY2hhcnQtanMvY2hhcnQtanMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNjaGFydENvbnRhaW5lcntcclxuICAgIGhlaWdodDogMzcwcHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIG1hcmdpbi1sZWZ0OmF1dG87XHJcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcclxufVxyXG5cclxuI2NoYXJ0Q29udGFpbmVyMXtcclxuICAgIGhlaWdodDogMzcwcHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIG1hcmdpbi1sZWZ0OmF1dG87XHJcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcclxufVxyXG5cclxuI2NoYXJ0Q29udGFpbmVyMXtcclxuICAgIGhlaWdodDogMzcwcHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIG1hcmdpbi1sZWZ0OmF1dG87XHJcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcclxufVxyXG5cclxuLmNhbnZhc2pzLWNoYXJ0LWNyZWRpdCB7IFxyXG4gICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubXktY3VzdG9tLXNjcm9sbGJhciB7XHJcbiAgICAvKiBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBcclxuICAgIG92ZXJmbG93OiBhdXRvO1xyXG4gICAgZGlzcGxheTogYmxvY2s7ICovXHJcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xyXG4gICAgaGVpZ2h0OiAxMjYwcHg7XHJcbiAgICBvdmVyZmxvdy14OiBoaWRkZW47XHJcbn1cclxuLmhpZ2hjaGFydHMtZmlndXJlLCAuaGlnaGNoYXJ0cy1kYXRhLXRhYmxlIHRhYmxlIHtcclxuICAgIG1pbi13aWR0aDogMzYwcHg7IFxyXG4gICAgbWF4LXdpZHRoOiA4MDBweDtcclxuICAgIG1hcmdpbjogMWVtIGF1dG87XHJcbn1cclxuXHJcbi5oaWdoY2hhcnRzLWRhdGEtdGFibGUgdGFibGUge1xyXG5cdGZvbnQtZmFtaWx5OiBWZXJkYW5hLCBzYW5zLXNlcmlmO1xyXG5cdGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcblx0Ym9yZGVyOiAxcHggc29saWQgI0VCRUJFQjtcclxuXHRtYXJnaW46IDEwcHggYXV0bztcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0bWF4LXdpZHRoOiA1MDBweDtcclxufVxyXG4uaGlnaGNoYXJ0cy1kYXRhLXRhYmxlIGNhcHRpb24ge1xyXG4gICAgcGFkZGluZzogMWVtIDA7XHJcbiAgICBmb250LXNpemU6IDEuMmVtO1xyXG4gICAgY29sb3I6ICM1NTU7XHJcbn1cclxuLmhpZ2hjaGFydHMtZGF0YS10YWJsZSB0aCB7XHJcblx0Zm9udC13ZWlnaHQ6IDYwMDtcclxuICAgIHBhZGRpbmc6IDAuNWVtO1xyXG59XHJcbi5oaWdoY2hhcnRzLWRhdGEtdGFibGUgdGQsIC5oaWdoY2hhcnRzLWRhdGEtdGFibGUgdGgsIC5oaWdoY2hhcnRzLWRhdGEtdGFibGUgY2FwdGlvbiB7XHJcbiAgICBwYWRkaW5nOiAwLjVlbTtcclxufVxyXG4uaGlnaGNoYXJ0cy1kYXRhLXRhYmxlIHRoZWFkIHRyLCAuaGlnaGNoYXJ0cy1kYXRhLXRhYmxlIHRyOm50aC1jaGlsZChldmVuKSB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjZjhmOGY4O1xyXG59XHJcbi5oaWdoY2hhcnRzLWRhdGEtdGFibGUgdHI6aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZDogI2YxZjdmZjtcclxufVxyXG5cclxuLmF1dG9jb21wbGV0ZS1jb250YWluZXIge1xyXG4gICAgd2lkdGg6IDk2JSAhaW1wb3J0YW50O1xyXG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ChartJsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
@@ -1059,9 +1067,9 @@ function CountryWiseComponent_tr_22_td_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const sd_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const sd_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](sd_r18.Country);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](sd_r19.Country);
 } }
 function CountryWiseComponent_tr_22_td_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 16);
@@ -1071,20 +1079,20 @@ function CountryWiseComponent_tr_22_td_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const sd_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const sd_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", sd_r18.TotalConfirmed, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", sd_r19.TotalConfirmed, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("[+", sd_r18.NewConfirmed, "]");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("[+", sd_r19.NewConfirmed, "]");
 } }
 function CountryWiseComponent_tr_22_td_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const sd_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const sd_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", sd_r18.TotalConfirmed - (sd_r18.TotalRecovered + sd_r18.TotalDeaths), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", sd_r19.TotalConfirmed - (sd_r19.TotalRecovered + sd_r19.TotalDeaths), " ");
 } }
 function CountryWiseComponent_tr_22_td_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 18);
@@ -1094,11 +1102,11 @@ function CountryWiseComponent_tr_22_td_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const sd_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const sd_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](sd_r18.TotalRecovered);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](sd_r19.TotalRecovered);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("[+", sd_r18.NewRecovered, "]");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("[+", sd_r19.NewRecovered, "]");
 } }
 function CountryWiseComponent_tr_22_td_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 19);
@@ -1108,11 +1116,11 @@ function CountryWiseComponent_tr_22_td_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const sd_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+    const sd_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](sd_r18.TotalDeaths);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](sd_r19.TotalDeaths);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("[+", sd_r18.NewDeaths, "]");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("[+", sd_r19.NewDeaths, "]");
 } }
 function CountryWiseComponent_tr_22_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "tr");
@@ -1123,17 +1131,17 @@ function CountryWiseComponent_tr_22_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, CountryWiseComponent_tr_22_td_5_Template, 4, 2, "td", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const sd_r18 = ctx.$implicit;
+    const sd_r19 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r18.TotalConfirmed > 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r19.TotalConfirmed > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r18.TotalConfirmed > 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r19.TotalConfirmed > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r18.TotalConfirmed > 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r19.TotalConfirmed > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r18.TotalConfirmed > 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r19.TotalConfirmed > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r18.TotalConfirmed > 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", sd_r19.TotalConfirmed > 0);
 } }
 const _c0 = function (a0) { return { Country: a0 }; };
 class CountryWiseComponent {
@@ -1142,9 +1150,9 @@ class CountryWiseComponent {
     }
 }
 CountryWiseComponent.ɵfac = function CountryWiseComponent_Factory(t) { return new (t || CountryWiseComponent)(); };
-CountryWiseComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CountryWiseComponent, selectors: [["app-country-wise"]], inputs: { stateData: "stateData" }, decls: 24, vars: 7, consts: [[1, "text-center"], [1, "row"], [1, "col-lg-12", "badge", "badge-outline-dark", 2, "text-align", "left"], [1, "form-group", "mb-1", "mt-3"], ["for", "exampleInput"], ["type", "text", "id", "exampleInput", "aria-describedby", "emailHelp", "placeholder", "Enter Country Name", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "my-custom-scrollbar"], [1, "table", "table-striped"], [1, "thead-dark"], [4, "ngFor", "ngForOf"], ["class", "text-uppercase badge badge-outline-dark", 4, "ngIf"], ["class", "text-danger", 4, "ngIf"], ["class", "text-primary", 4, "ngIf"], ["class", "text-success", 4, "ngIf"], ["class", "text-secondary", 4, "ngIf"], [1, "text-uppercase", "badge", "badge-outline-dark"], [1, "text-danger"], [1, "text-primary"], [1, "text-success"], [1, "text-secondary"]], template: function CountryWiseComponent_Template(rf, ctx) { if (rf & 1) {
+CountryWiseComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CountryWiseComponent, selectors: [["app-country-wise"]], inputs: { stateData: "stateData" }, decls: 24, vars: 7, consts: [[1, "text-center"], [1, "row"], [1, "col-lg-12", "badge", "badge-outline-dark", 2, "text-align", "left"], [1, "form-group", "mb-1", "mt-3"], ["for", "exampleInput"], ["type", "text", "id", "exampleInput", "aria-describedby", "emailHelp", "placeholder", "Enter Country Name", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "my-custom-scrollbar"], [1, "table", "table-striped"], [1, "thead-dark"], [4, "ngFor", "ngForOf"], ["class", "badge badge-outline-dark", 4, "ngIf"], ["class", "text-danger", 4, "ngIf"], ["class", "text-primary", 4, "ngIf"], ["class", "text-success", 4, "ngIf"], ["class", "text-secondary", 4, "ngIf"], [1, "badge", "badge-outline-dark"], [1, "text-danger"], [1, "text-primary"], [1, "text-success"], [1, "text-secondary"]], template: function CountryWiseComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Country Wise List");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Country wise list");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
@@ -1315,7 +1323,7 @@ NavBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " COVID-19 DASHBOARD");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " COVID-19 Tracker");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "button", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "span", 4);
